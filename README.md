@@ -20,4 +20,4 @@ of high-performing configurations is sampled from the distribution and used to t
 
 ## Data
 
-The traffic data files for Los Angeles (METR-LA) are available at [METR-LA](https://anl.box.com/s/ptjgb2jcpf122jtooml5ew55x0ubibxq). Th train, test, and val is at `data/METR-LA/{train,val,test}.npz`. The adjacency matrix and configuration file are available at `METR-LA/sensor_graph/adj_mx.pkl` and `METR-LA/model/dcrnn_la.yaml`.
+The traffic data files for Los Angeles (METR-LA) are available at [METR-LA](https://anl.box.com/s/ptjgb2jcpf122jtooml5ew55x0ubibxq). The train, test, and validation data are available at `data/METR-LA/{train,val,test}.npz`. The adjacency matrix and configuration file are available at `METR-LA/sensor_graph/adj_mx.pkl` and `METR-LA/model/dcrnn_la.yaml`.
