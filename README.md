@@ -7,3 +7,14 @@ of high-performing configurations is used to fits a Gaussian copula model to cap
 of high-performing configurations is sampled from the distribution and used to train an ensemble of DCRNN-SQR models.
 
 
+## Requirements
+* torch
+* scipy>=0.19.0
+* numpy>=1.12.1
+* pandas>=0.19.2
+* pyyaml
+* statsmodels
+* tensorflow>=1.3.0
+* tables
+* future
+
