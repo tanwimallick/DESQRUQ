@@ -34,3 +34,13 @@ mv METR-LA data00
 for i in {1..99}; do cp -r data00 "data0$i"; done
 python change_yaml.py
 ```
+
+## Run the experiments 
+We construct model ensemble using 100 synthetic hyperparameter configurations. We train 100 DCRNN-SQR models with synthetic hyperparameter configurations simultaneously on multiple GPUs.
+
+To submit and run an experiment on the Cooley GPU cluster the following command is used:
+
+```no-highlight
+qsub qsub_100uq.sh
+```
+
