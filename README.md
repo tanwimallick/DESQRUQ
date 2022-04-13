@@ -6,6 +6,15 @@ based hyperparameter serach [DeepHyper](https://deephyper.readthedocs.io/en/late
 of high-performing configurations is used to fits a Gaussian copula model to capture the joint distributions of the hyperparameter configurations. Finally a set 
 of high-performing configurations is sampled from the distribution and used to train an ensemble of DCRNN-SQR models.
 
+## Environment information
+
+The experiments were executed on the [Cooley](https://www.alcf.anl.gov/support-center/cooley/cooley-system-overview) GPU cluster. Cooley has a total of 126 compute nodes; each node has 12 CPU cores and one NVIDIA Tesla K80 dual-GPU card.
+
+* OS Login Node: Red Hat Enterprise Linux Server release 7.9 (Maipo)
+* OS Compute Node: Red Hat Enterprise Linux Server release 7.9 (GNU/Linux 3.10.0-1160.59.1.el7.x86_64)
+* Python: Miniconda Python 3.8
+
+For more information about the environment refer to the `env-sc22.txt` which was generated with the provided SC [Author-Kit](https://github.com/SC-Tech-Program/Author-Kit.)
 
 ## Requirements
 * torch
