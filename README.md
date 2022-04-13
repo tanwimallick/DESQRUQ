@@ -17,7 +17,20 @@ of high-performing configurations is sampled from the distribution and used to t
 * tensorflow>=1.3.0
 * tables
 * future
+* mpi4py
 
-## Data
+## Download Data
 
 The traffic data files for Los Angeles (METR-LA) are available at [METR-LA](https://anl.box.com/s/ptjgb2jcpf122jtooml5ew55x0ubibxq). The train, test, and validation data are available at `data/METR-LA/{train,val,test}.npz`. The adjacency matrix and configuration file are available at `METR-LA/sensor_graph/adj_mx.pkl` and `METR-LA/model/dcrnn_la.yaml`.
+
+## Generate datasets 
+Run the following comands to create the dataset with 100 hyperparameter configurations 
+
+```no-highlight
+mkdir data100
+mv METR-LA data100
+cd data100
+mv METR-LA data00
+for i in {1..99}; do cp -r data00 "data0$i"; done
+python change_yaml.py
+```
