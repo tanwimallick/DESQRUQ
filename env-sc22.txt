@@ -1,0 +1,536 @@
+CPLUS_INCLUDE_PATH=
+MANPATH=/soft/libraries/mpi/mvapich2/gcc/share/man:/home/USER/man:/soft/environment/softenv-1.6.2/man:/usr/share/man:/usr/local/man:/usr/X11R6/man
+HOSTNAME=cc087
+SHELL=/bin/bash
+TERM=xterm-256color
+HISTSIZE=1000
+CLICOLOR=1
+SSH_CLIENT=172.23.100.209 50524 22
+LIBRARY_PATH=
+CONDA_SHLVL=3
+NCARG_FONTCAPS=/usr/lib64/ncarg/fontcaps
+CONDA_PROMPT_MODIFIER=($ENV_NAME/$CONDA_DEFAULT_ENV) 
+SSH_TTY=/dev/pts/0
+INCLUDE_PATH=
+MIC_LD_LIBRARY_PATH=
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=USER
+LD_LIBRARY_PATH=/soft/libraries/mpi/mvapich2/gcc/lib
+CONDA_EXE=/lus/theta-fs0/software/thetagpu/conda/2021-06-26/mconda3/bin/conda
+CPATH=
+MV2_USE_HUGEPAGES=0
+MV2_ENABLE_AFFINITY=0
+NCARG_GRAPHCAPS=/usr/lib64/ncarg/graphcaps
+_CE_CONDA=
+NLSPATH=
+CONDA_PREFIX_1=/lus/theta-fs0/projects/hpcbdsm/cooley/miniconda
+PATH=/lus/theta-fs0/projects/hpcbdsm/cooley/pgsql/bin:/lus/theta-fs0/projects/hpcbdsm/cooley/gcntf2/bin:/lus/theta-fs0/projects/hpcbdsm/cooley/miniconda/condabin:/soft/libraries/mpi/mvapich2/gcc/bin:/home/USER/bin:/soft/environment/softenv-1.6.2/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/X11R6/bin:/opt/ibutils/bin
+MAIL=/var/spool/mail/USER
+_=/bin/env
+CONDA_PREFIX_2=/lus/theta-fs0/software/thetagpu/conda/2021-06-26/mconda3
+SOFTENV_ALIASES=/soft/environment/softenv-1.6.2/etc/softenv-aliases.sh
+C_INCLUDE_PATH=
+CONDA_PREFIX=/lus/theta-fs0/projects/hpcbdsm/cooley/gcntf2
+PWD=/lus/theta-fs0/projects/hpcbdsm/v2dcrnn/UQ
+NCARG_ROOT=/usr
+LANG=en_US.UTF-8
+WHATAMI=linux-rhel_7-x86_64
+MODULEPATH=
+NCARG_DATABASE=/usr/lib64/ncarg/database
+COBALT_JOBID=2130389
+TZ=/usr/share/zoneinfo/America/Chicago
+PLATFORM=linux-rhel_7-x86_64
+COBALT_NODEFILE=/var/tmp/cobalt.2130389
+LM_LICENSE_FILE=
+HISTCONTROL=ignoredups
+NCARG_LIB=/usr/lib64/ncarg
+_CE_M=
+SOFTENV_LOAD=/soft/environment/softenv-1.6.2/etc/softenv-load.sh
+TEXINPUTS=
+HOME=/home/USER
+SHLVL=2
+NCARG_NCARG=/usr/share/ncarg
+LOGNAME=USER
+PYTHONPATH=
+MV2_IBA_HCA=mlx5_0
+CONDA_PYTHON_EXE=/lus/theta-fs0/software/thetagpu/conda/2021-06-26/mconda3/bin/python
+CVS_RSH=ssh
+SSH_CONNECTION=172.23.100.209 50524 172.23.100.183 22
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+CONDA_DEFAULT_ENV=/lus/theta-fs0/projects/hpcbdsm/cooley/gcntf2
+ARCH=linux-rhel_7-x86_64
+LSB Version:	:core-4.1-amd64:core-4.1-noarch
+Distributor ID:	RedHatEnterpriseServer
+Description:	Red Hat Enterprise Linux Server release 7.9 (Maipo)
+Release:	7.9
+Codename:	Maipo
+Linux cc087 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 16 12:17:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                12
+On-line CPU(s) list:   0-11
+Thread(s) per core:    1
+Core(s) per socket:    6
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+Stepping:              2
+CPU MHz:               2069.091
+CPU max MHz:           3200.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4788.90
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              15360K
+NUMA node0 CPU(s):     0-5
+NUMA node1 CPU(s):     6-11
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb invpcid_single intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts md_clear spec_ctrl intel_stibp flush_l1d
+MemTotal:       395990592 kB
+MemFree:        383671012 kB
+MemAvailable:   383908368 kB
+Buffers:          252108 kB
+Cached:           923160 kB
+SwapCached:       699916 kB
+Active:           907916 kB
+Inactive:        1359784 kB
+Active(anon):      61592 kB
+Inactive(anon):  1221144 kB
+Active(file):     846324 kB
+Inactive(file):   138640 kB
+Unevictable:     4194304 kB
+Mlocked:         4194304 kB
+SwapTotal:       5242876 kB
+SwapFree:        4283604 kB
+Dirty:                80 kB
+Writeback:             0 kB
+AnonPages:       4599596 kB
+Mapped:           366448 kB
+Shmem:            190296 kB
+Slab:            1710852 kB
+SReclaimable:     394564 kB
+SUnreclaim:      1316288 kB
+KernelStack:       16448 kB
+PageTables:        20464 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    203238172 kB
+Committed_AS:    5749664 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     3148820 kB
+VmallocChunk:   34152039604 kB
+Percpu:             3008 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   4384768 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    25863084 kB
+DirectMap2M:    368304128 kB
+DirectMap1G:    10485760 kB
+NAME              MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+sda                 8:0    0 465.8G  0 disk  
+├─sda1              8:1    0   300M  0 part  
+│ └─md0             9:0    0 299.7M  0 raid1 /boot
+└─sda2              8:2    0 465.5G  0 part  
+  └─md1             9:1    0 465.4G  0 raid1 
+    ├─vg0-root    253:0    0    20G  0 lvm   /
+    ├─vg0-swap    253:1    0     5G  0 lvm   [SWAP]
+    ├─vg0-scratch 253:2    0   350G  0 lvm   /scratch
+    ├─vg0-tmp     253:3    0    20G  0 lvm   /tmp
+    ├─vg0-var     253:4    0    40G  0 lvm   /var
+    └─vg0-opt     253:5    0    20G  0 lvm   /opt
+sdb                 8:16   0 465.8G  0 disk  
+├─sdb1              8:17   0   300M  0 part  
+│ └─md0             9:0    0 299.7M  0 raid1 /boot
+└─sdb2              8:18   0 465.5G  0 part  
+  └─md1             9:1    0 465.4G  0 raid1 
+    ├─vg0-root    253:0    0    20G  0 lvm   /
+    ├─vg0-swap    253:1    0     5G  0 lvm   [SWAP]
+    ├─vg0-scratch 253:2    0   350G  0 lvm   /scratch
+    ├─vg0-tmp     253:3    0    20G  0 lvm   /tmp
+    ├─vg0-var     253:4    0    40G  0 lvm   /var
+    └─vg0-opt     253:5    0    20G  0 lvm   /opt
+[4:0:0:0]    disk    ATA      ST9500620NS      SN03  /dev/sda    500GB
+[5:0:0:0]    disk    ATA      ST9500620NS      SN03  /dev/sdb    500GB
+Wed Apr 13 10:00:27 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.80.02    Driver Version: 450.80.02    CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla K80           On   | 00000000:07:00.0 Off |                    0 |
+| N/A   23C    P8    26W / 149W |     71MiB / 11441MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla K80           On   | 00000000:08:00.0 Off |                    0 |
+| N/A   20C    P8    28W / 149W |     70MiB / 11441MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     29899      G   /usr/bin/Xorg                      68MiB |
+|    1   N/A  N/A     29899      G   /usr/bin/Xorg                      68MiB |
++-----------------------------------------------------------------------------+
+H/W path         Device     Class          Description
+======================================================
+                            system         Computer
+/0                          bus            Motherboard
+/0/0                        memory         384GiB System memory
+/0/1                        processor      Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+/0/6                        processor      Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+/0/100                      bridge         Xeon E7 v3/Xeon E5 v3/Core i7 DMI2
+/0/100/1                    bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 1
+/0/100/2                    bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+/0/100/2.2                  bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+/0/100/2.2/0     eth0       network        Ethernet Controller 10-Gigabit X540-AT2
+/0/100/2.2/0.1   eth1       network        Ethernet Controller 10-Gigabit X540-AT2
+/0/100/3                    bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+/0/100/3/0                  bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/100/3/0/8                bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/100/3/0/8/0              display        GK210GL [Tesla K80]
+/0/100/3/0/10               bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/100/3/0/10/0             display        GK210GL [Tesla K80]
+/0/100/4                    generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 0
+/0/100/4.1                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 1
+/0/100/4.2                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 2
+/0/100/4.3                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 3
+/0/100/4.4                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 4
+/0/100/4.5                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 5
+/0/100/4.6                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 6
+/0/100/4.7                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 7
+/0/100/5                    generic        Xeon E7 v3/Xeon E5 v3/Core i7 Address Map, VTd_Misc, System Management
+/0/100/5.1                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 Hot Plug
+/0/100/5.2                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 RAS, Control Status and Global Errors
+/0/100/5.4                  generic        Xeon E7 v3/Xeon E5 v3/Core i7 I/O APIC
+/0/100/11                   generic        C610/X99 series chipset SPSR
+/0/100/11.1                 bus            C610/X99 series chipset MS SMBus 0
+/0/100/11.4                 storage        C610/X99 series chipset sSATA Controller [AHCI mode]
+/0/100/14                   bus            C610/X99 series chipset USB xHCI Host Controller
+/0/100/16                   communication  C610/X99 series chipset MEI Controller #1
+/0/100/16.1                 communication  C610/X99 series chipset MEI Controller #2
+/0/100/1a                   bus            C610/X99 series chipset USB Enhanced Host Controller #2
+/0/100/1c                   bridge         C610/X99 series chipset PCI Express Root Port #4
+/0/100/1c/0                 display        MGA G200e [Pilot] ServerEngines (SEP1)
+/0/100/1d                   bus            C610/X99 series chipset USB Enhanced Host Controller #1
+/0/100/1f                   bridge         C610/X99 series chipset LPC Controller
+/0/100/1f.2                 storage        C610/X99 series chipset 6-Port SATA Controller [AHCI mode]
+/0/100/1f.3                 bus            C610/X99 series chipset SMBus Controller
+/0/7                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/8                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/9                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/a                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/b                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/c                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/d                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/e                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/f                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/10                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/11                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/12                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/13                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+/0/14                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+/0/15                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/16                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/17                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/18                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+/0/19                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+/0/1a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/1b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/1c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/1d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+/0/1e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+/0/1f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+/0/20                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+/0/21                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/22                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/23                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/24                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 0/1 Broadcast
+/0/25                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+/0/26                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 Thermal Control
+/0/27                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 Thermal Control
+/0/28                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 ERROR Registers
+/0/29                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers
+/0/2a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+/0/2b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+/0/2c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 Thermal Control
+/0/2d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 Thermal Control
+/0/2e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 ERROR Registers
+/0/2f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 ERROR Registers
+/0/30                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
+/0/31                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 2/3 Broadcast
+/0/32                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+/0/33                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 Thermal Control
+/0/34                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/35                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/36                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/37                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/38                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/39                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/3a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/3b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/3c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/3d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+/0/3e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+/0/2                        bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 2
+/0/2/0           ib1        network        MT27600 [Connect-IB]
+/0/3                        bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+/0/3.2                      bridge         Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 3
+/0/3.2/0         eth2       network        MT27500 Family [ConnectX-3]
+/0/4                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 0
+/0/4.1                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 1
+/0/4.2                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 2
+/0/4.3                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 3
+/0/4.4                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 4
+/0/4.5                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 5
+/0/4.6                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 6
+/0/4.7                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 7
+/0/5                        generic        Xeon E7 v3/Xeon E5 v3/Core i7 Address Map, VTd_Misc, System Management
+/0/5.1                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 Hot Plug
+/0/5.2                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 RAS, Control Status and Global Errors
+/0/5.4                      generic        Xeon E7 v3/Xeon E5 v3/Core i7 I/O APIC
+/0/3f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/40                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/41                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0
+/0/42                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/43                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/44                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring
+/0/45                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/46                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/47                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/48                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/49                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/4a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers
+/0/4b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+/0/4c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Buffered Ring Agent
+/0/4d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/4e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/4f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers
+/0/50                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+/0/51                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface
+/0/52                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/53                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/54                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers
+/0/55                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+/0/56                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0
+/0/57                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+/0/58                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+/0/59                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/5a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/5b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder
+/0/5c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 0/1 Broadcast
+/0/5d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+/0/5e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 Thermal Control
+/0/5f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 Thermal Control
+/0/60                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 0 ERROR Registers
+/0/61                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers
+/0/62                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+/0/63                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 0 & 1
+/0/64                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 Thermal Control
+/0/65                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 Thermal Control
+/0/66                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 2 ERROR Registers
+/0/67                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel 3 ERROR Registers
+/0/68                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
+/0/69                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 2/3 Broadcast
+/0/6a                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Global Broadcast
+/0/6b                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 1 Channel 0 Thermal Control
+/0/6c                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/6d                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/6e                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/6f                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO (VMSE) 2 & 3
+/0/70                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/71                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/72                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/73                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/74                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 Power Control Unit
+/0/75                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+/0/76                       generic        Xeon E7 v3/Xeon E5 v3/Core i7 VCU
+/0/77                       system         PnP device PNP0b00
+/0/78                       system         PnP device PNP0c02
+/0/79                       communication  PnP device PNP0501
+/0/7a                       communication  PnP device PNP0501
+/1               eth2.2200  network        Ethernet interface
+/2               eth2.2330  network        Ethernet interface
+/3               ib0        network        interface
+# packages in environment at /lus/theta-fs0/projects/hpcbdsm/cooley/gcntf2:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       1_gnu    conda-forge
+_tflow_select             2.1.0                       gpu  
+absl-py                   0.12.0             pyhd8ed1ab_0    conda-forge
+aiohttp                   3.7.4            py38h497a2fe_0    conda-forge
+astunparse                1.6.3              pyhd8ed1ab_0    conda-forge
+async-timeout             3.0.1                   py_1000    conda-forge
+attrs                     20.3.0             pyhd3deb0d_0    conda-forge
+blinker                   1.4                        py_1    conda-forge
+brotli                    1.0.9                h9c3ff4c_4    conda-forge
+brotlipy                  0.7.0           py38h497a2fe_1001    conda-forge
+c-ares                    1.17.1               h7f98852_1    conda-forge
+ca-certificates           2021.10.8            ha878542_0    conda-forge
+cachetools                4.2.1              pyhd8ed1ab_0    conda-forge
+certifi                   2021.10.8        py38h578d9bd_1    conda-forge
+cffi                      1.14.5           py38ha65f79e_0    conda-forge
+chardet                   4.0.0            py38h578d9bd_1    conda-forge
+click                     7.1.2              pyh9f0ad1d_0    conda-forge
+cloudpickle               1.6.0                    pypi_0    pypi
+colorama                  0.4.4                    pypi_0    pypi
+commonmark                0.9.1                    pypi_0    pypi
+cryptography              3.4.7            py38ha5dfef3_0    conda-forge
+cudatoolkit               10.1.243             h036e899_8    conda-forge
+cudnn                     7.6.5.32             hc0a50b0_1    conda-forge
+cupti                     10.1.168                      0  
+cycler                    0.11.0             pyhd8ed1ab_0    conda-forge
+dbus                      1.13.18              hb2f20db_0  
+decorator                 5.0.7                    pypi_0    pypi
+dm-tree                   0.1.6                    pypi_0    pypi
+expat                     2.2.10               h9c3ff4c_0    conda-forge
+filelock                  3.6.0                    pypi_0    pypi
+fontconfig                2.13.1            he4413a7_1000    conda-forge
+fonttools                 4.25.0             pyhd3eb1b0_0    intel
+freetype                  2.10.4               h0708190_1    conda-forge
+gast                      0.4.0              pyh9f0ad1d_0    conda-forge
+glib                      2.69.1               h5202010_0  
+google-auth               1.28.0             pyh44b312d_0    conda-forge
+google-auth-oauthlib      0.4.1                      py_2    conda-forge
+google-pasta              0.2.0              pyh8c360ce_0    conda-forge
+grpcio                    1.37.0           py38hdd6454d_0    conda-forge
+gst-plugins-base          1.14.0               hbbd80ab_1  
+gstreamer                 1.14.0               h28cd5cc_2  
+h5py                      2.10.0          nompi_py38h9915d05_106    conda-forge
+hdf5                      1.10.6          nompi_h6a2412b_1114    conda-forge
+huggingface-hub           0.4.0                    pypi_0    pypi
+icu                       58.2              hf484d3e_1000    conda-forge
+idna                      2.10               pyh9f0ad1d_0    conda-forge
+importlib-metadata        3.10.1           py38h578d9bd_0    conda-forge
+intelpython               2022.0.0                      0    intel
+joblib                    1.1.0                    pypi_0    pypi
+jpeg                      9d                   h36c2ea0_0    conda-forge
+keras-preprocessing       1.1.2              pyhd8ed1ab_0    conda-forge
+keybert                   0.5.0                    pypi_0    pypi
+kiwisolver                1.3.1            py38h9065164_0    intel
+krb5                      1.17.2               h926e7f8_0    conda-forge
+ld_impl_linux-64          2.35.1               hea4e1c9_2    conda-forge
+libblas                   3.9.0                8_openblas    conda-forge
+libcblas                  3.9.0                8_openblas    conda-forge
+libcurl                   7.76.1               hc4aaa36_0    conda-forge
+libedit                   3.1.20191231         he28a2e2_2    conda-forge
+libev                     4.33                 h516909a_1    conda-forge
+libffi                    3.3                  h58526e2_2    conda-forge
+libgcc-ng                 9.3.0               h2828fa1_19    conda-forge
+libgfortran-ng            9.3.0               hff62375_19    conda-forge
+libgfortran5              9.3.0               hff62375_19    conda-forge
+libgomp                   9.3.0               h2828fa1_19    conda-forge
+liblapack                 3.9.0                8_openblas    conda-forge
+libnghttp2                1.43.0               h812cca2_0    conda-forge
+libopenblas               0.3.12          pthreads_h4812303_1    conda-forge
+libpng                    1.6.37               h21135ba_2    conda-forge
+libprotobuf               3.15.8               h780b84a_0    conda-forge
+libssh2                   1.9.0                ha56f1ee_6    conda-forge
+libstdcxx-ng              9.3.0               h6de172a_19    conda-forge
+libtiff                   4.0.10            hc3755c2_1005    conda-forge
+libuuid                   2.32.1            h7f98852_1000    conda-forge
+libxcb                    1.13              h7f98852_1003    conda-forge
+libxml2                   2.9.9                h14c3975_0    intel
+lz4-c                     1.9.3                h9c3ff4c_1    conda-forge
+markdown                  3.3.4              pyhd8ed1ab_0    conda-forge
+matplotlib                3.4.3            py38h578d9bd_1    conda-forge
+matplotlib-base           3.4.3            py38hbbc1b5f_0  
+mpi4py                    3.0.3                    pypi_0    pypi
+multidict                 5.1.0            py38h497a2fe_1    conda-forge
+munkres                   1.1.4              pyh9f0ad1d_0    conda-forge
+ncurses                   6.2                  h58526e2_4    conda-forge
+networkx                  2.6.3                    pypi_0    pypi
+nltk                      3.7                      pypi_0    pypi
+numexpr                   2.7.3                    pypi_0    pypi
+numpy                     1.19.5                   pypi_0    pypi
+oauthlib                  3.0.1                      py_0    conda-forge
+olefile                   0.46               pyh9f0ad1d_1    conda-forge
+openssl                   1.1.1k               h7f98852_0    conda-forge
+opt_einsum                3.3.0              pyhd8ed1ab_1    conda-forge
+packaging                 21.3                     pypi_0    pypi
+pandas                    1.2.4                    pypi_0    pypi
+pcre                      8.45                 h9c3ff4c_0    conda-forge
+pillow                    8.4.0                    pypi_0    pypi
+pip                       21.0.1             pyhd8ed1ab_0    conda-forge
+protobuf                  3.15.8           py38h709712a_0    conda-forge
+pthread-stubs             0.4               h36c2ea0_1001    conda-forge
+pyasn1                    0.4.8                      py_0    conda-forge
+pyasn1-modules            0.2.7                      py_0    conda-forge
+pycparser                 2.20               pyh9f0ad1d_2    conda-forge
+pygments                  2.11.2                   pypi_0    pypi
+pyjwt                     2.0.1              pyhd8ed1ab_1    conda-forge
+pyopenssl                 20.0.1             pyhd8ed1ab_0    conda-forge
+pyparsing                 3.0.6              pyhd8ed1ab_0    conda-forge
+pyqt                      5.9.2            py38h05f1152_4  
+pysocks                   1.7.1            py38h578d9bd_3    conda-forge
+python                    3.8.8           hffdb5ce_0_cpython    conda-forge
+python-dateutil           2.8.1                    pypi_0    pypi
+python-flatbuffers        1.12               pyhd8ed1ab_1    conda-forge
+python_abi                3.8                      1_cp38    conda-forge
+pytz                      2021.1                   pypi_0    pypi
+pyyaml                    5.4.1                    pypi_0    pypi
+qt                        5.9.7                h5867ecd_1  
+readline                  8.0                  he28a2e2_2    conda-forge
+regex                     2022.1.18                pypi_0    pypi
+requests                  2.25.1             pyhd3deb0d_0    conda-forge
+requests-oauthlib         1.3.0              pyh9f0ad1d_0    conda-forge
+rich                      11.2.0                   pypi_0    pypi
+rsa                       4.7.2              pyh44b312d_0    conda-forge
+sacremoses                0.0.47                   pypi_0    pypi
+scikit-learn              0.24.2                   pypi_0    pypi
+scikit-multilearn         0.2.0                    pypi_0    pypi
+scipy                     1.6.2            py38h7b17777_0    conda-forge
+sentence-transformers     2.2.0                    pypi_0    pypi
+sentencepiece             0.1.96                   pypi_0    pypi
+setuptools                49.6.0           py38h578d9bd_3    conda-forge
+sip                       4.19.13          py38he6710b0_0  
+six                       1.15.0             pyh9f0ad1d_0    conda-forge
+snorkel                   0.9.8                    pypi_0    pypi
+sqlite                    3.35.4               h74cdb3f_0    conda-forge
+tables                    3.6.1                    pypi_0    pypi
+tensorboard               2.4.1              pyhd8ed1ab_0    conda-forge
+tensorboard-plugin-wit    1.8.0              pyh44b312d_0    conda-forge
+tensorflow                2.4.1           gpu_py38h8a7d6ce_0  
+tensorflow-base           2.4.1           gpu_py38h29c2da4_0  
+tensorflow-estimator      2.4.1              pyheb71bc4_0  
+tensorflow-gpu            2.4.1                h30adc30_0  
+tensorflow-probability    0.12.2                   pypi_0    pypi
+termcolor                 1.1.0                      py_2    conda-forge
+threadpoolctl             3.1.0                    pypi_0    pypi
+tk                        8.6.10               h21135ba_1    conda-forge
+tokenizers                0.11.5                   pypi_0    pypi
+torch                     1.10.0                   pypi_0    pypi
+torchvision               0.11.1                   pypi_0    pypi
+tornado                   6.1              py38h497a2fe_1    conda-forge
+tqdm                      4.62.3                   pypi_0    pypi
+transformers              4.16.2                   pypi_0    pypi
+typing-extensions         3.7.4.3                       0    conda-forge
+typing_extensions         3.7.4.3                    py_0    conda-forge
+urllib3                   1.26.4             pyhd8ed1ab_0    conda-forge
+werkzeug                  1.0.1              pyh9f0ad1d_0    conda-forge
+wheel                     0.36.2             pyhd3deb0d_0    conda-forge
+wrapt                     1.12.1           py38h497a2fe_3    conda-forge
+xorg-libxau               1.0.9                h7f98852_0    conda-forge
+xorg-libxdmcp             1.1.3                h7f98852_0    conda-forge
+xz                        5.2.5                h516909a_1    conda-forge
+yarl                      1.6.3            py38h497a2fe_1    conda-forge
+zipp                      3.4.1              pyhd8ed1ab_0    conda-forge
+zlib                      1.2.11            h516909a_1010    conda-forge
+zstd                      1.4.9                ha95c52a_0    conda-forge
