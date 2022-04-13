@@ -41,6 +41,11 @@ We construct model ensemble using 100 synthetic hyperparameter configurations. W
 To submit and run an experiment on the Cooley GPU cluster the following command is used:
 
 ```no-highlight
-qsub qsub_100uq.sh
+qsub -n 50 -t 12:00:00 -A hpcbdsm qsub_100uq.sh
 ```
+where
+
+* `-n` denotes the number of nodes requested.
+* `-t` denotes the allocation time (minutes) requested.
+* `-A` denotes the project's name at the ALCF.
 
