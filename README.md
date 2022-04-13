@@ -19,6 +19,20 @@ of high-performing configurations is sampled from the distribution and used to t
 * future
 * mpi4py
 
+## Installation
+
+Install Miniconda: [conda.io](https://docs.conda.io/en/latest/miniconda.html). Then create a Python environment:
+
+```console
+conda create -n gcntf2 python=3.8
+conda activate gcntf2
+```
+
+Dependency can be installed using the following command:
+```console
+pip install -r requirements.txt
+```
+
 ## Download Data
 
 The traffic data files for Los Angeles (METR-LA) are available at [METR-LA](https://anl.box.com/s/ptjgb2jcpf122jtooml5ew55x0ubibxq). The train, test, and validation data are available at `data/METR-LA/{train,val,test}.npz`. The adjacency matrix and configuration file are available at `METR-LA/sensor_graph/adj_mx.pkl` and `METR-LA/model/dcrnn_la.yaml`.
