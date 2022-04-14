@@ -88,5 +88,5 @@ To run the image follow the instructions:
 
 ```no-highlight
 docker load < dcrnn.tar
-Docker run dcrnn.tar
+docker run dcrnn.tar
 ```
