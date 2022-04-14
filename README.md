@@ -78,3 +78,15 @@ where
 * `-t` denotes the allocation time (minutes) requested.
 * `-A` denotes the project's name at the ALCF.
 
+## Docker image
+
+The docker image is available here:
+
+https://anl.box.com/s/5zs8wu1se4r84npw6w45gdqo7a0wpytj
+
+To run the image follow the instructions:
+
+```no-highlight
+docker load < dcrnn.tar
+Docker run dcrnn.tar
+```
