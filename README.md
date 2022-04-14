@@ -14,7 +14,7 @@ The experiments were executed on the [Cooley](https://www.alcf.anl.gov/support-c
 * OS Compute Node: Red Hat Enterprise Linux Server release 7.9 (GNU/Linux 3.10.0-1160.59.1.el7.x86_64)
 * Python: Miniconda Python 3.8
 
-For more information about the environment refer to the `env-sc22.txt` which was generated with the provided SC [Author-Kit](https://github.com/SC-Tech-Program/Author-Kit.)
+For more information about the environment refer to the `env-sc22.txt` which was generated with the provided SC [Author-Kit](https://github.com/SC-Tech-Program/Author-Kit/).
 
 ## Requirements
 * torch
